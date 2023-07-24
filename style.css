@@ -3,6 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
 }
+@media (max-width: 800px){
+    .navlist{
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+}
 .navcontainer{
     box-sizing: border-box;
     width: 100%;
